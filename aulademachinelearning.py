@@ -27,7 +27,8 @@ teste_x = [animal_misterioso1, animal_misterioso2, animal_misterioso3]
 teste_y = [0, 1, 1]
 
 Resultado = modelo.predict(teste_x)
-print(Resultado)
+#print(Resultado)
 
 accuracy = accuracy_score(teste_y, Resultado)
-print(accuracy * 100)
+#print(accuracy * 100)
+
